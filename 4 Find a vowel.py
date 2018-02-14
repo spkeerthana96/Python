@@ -8,4 +8,6 @@ def isvowel(val):
         print("%s is a vowel" % val)
     else:
         print("%s is not a vowel" % val)
-isvowel('b')
+print("Enter a character")
+a=input()
+isvowel(a)

@@ -7,4 +7,6 @@ def translate(str):
         else:
             res=res+i
     print(res)
-translate("This is fun")
+print("Enter a string")
+str=input()
+translate(str)
